@@ -24,13 +24,13 @@
             $option = 'viacep';
         }
             if ($option == 'viacep') {
-            include_once('viacep.php');
+            include_once('viaCep.php');
         }
             if ($option == 'postmon') {
             include_once('postmon.php');
         }
             if ($option == 'cepaberto') {
-            include_once('cepAberto.php');
+            include_once('cepaberto.php');
         }
             $address = getAddress();
         ?>
